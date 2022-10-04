@@ -2,7 +2,7 @@ package chap01;
 
 import java.util.Scanner;
 
-public class Max3_221004 {
+public class Max3 {
 
     // 세개의 정수값을 입력하고 최댓값을 구하여 출력.
         public static void main(String[] args) {
