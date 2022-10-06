@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="2. 반복">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/IntArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/IntArrayInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="2. 배열">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/MaxOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/MaxOfArrayRand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/Practice01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +55,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/chap01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chap02" />
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntArrayInit">
+  <component name="RunManager" selected="Application.Practice01">
     <configuration name="IntArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.IntArray" />
       <module name="algorithm_java2.main" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice14_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap01.practice14_4" />
+    <configuration name="MaxOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.MaxOfArray" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap01.*" />
+          <option name="PATTERN" value="chap02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap01.practice15" />
+    <configuration name="MaxOfArrayRand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.MaxOfArrayRand" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap01.*" />
+          <option name="PATTERN" value="chap02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap01.practice16" />
+    <configuration name="Practice01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.Practice01" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap01.*" />
+          <option name="PATTERN" value="chap02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxOfArrayRand" />
+        <item itemvalue="Application.MaxOfArray" />
+        <item itemvalue="Application.Practice01" />
         <item itemvalue="Application.IntArrayInit" />
         <item itemvalue="Application.IntArray" />
-        <item itemvalue="Application.practice16" />
-        <item itemvalue="Application.practice15" />
-        <item itemvalue="Application.practice14_4" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664885186960</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2. 배열">
+      <created>1665031479820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665031479820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +233,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="2. 반복" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 반복" />
+    <MESSAGE value="2. 배열" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. 배열" />
   </component>
 </project>
