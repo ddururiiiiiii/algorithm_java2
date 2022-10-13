@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="입력 받은 10진수를 2진수~36진수로 기수 변환하여 출력하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/CardConvEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/Practice06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PrimeNumber1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PrimeNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PrimeNumber3.java" afterDir="false" />
+    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1000 이하의 소수를 나열하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/ArraySumForIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/CloneArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,20 @@
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber2">
+  <component name="RunManager" selected="Application.ArraySumForIn">
+    <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.ArraySumForIn" />
+      <module name="algorithm_java2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CardConv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.CardConv2" />
       <module name="algorithm_java2.main" />
@@ -76,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.Practice04" />
+    <configuration name="CloneArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.CloneArray" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
@@ -115,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rcopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.Rcopy" />
-      <module name="algorithm_java2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySumForIn" />
+        <item itemvalue="Application.CloneArray" />
         <item itemvalue="Application.PrimeNumber2" />
         <item itemvalue="Application.Practice06" />
         <item itemvalue="Application.CardConv2" />
-        <item itemvalue="Application.Rcopy" />
-        <item itemvalue="Application.Practice04" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665655545057</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1000 이하의 소수를 나열하기">
+      <created>1665658659337</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665658659337</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +279,7 @@
     <MESSAGE value="2. 배열 - 난수 만들어 최대값 구하기" />
     <MESSAGE value="2. 배열 - 배열요소 복사, 역순으로 만들기" />
     <MESSAGE value="입력 받은 10진수를 2진수~36진수로 기수 변환하여 출력하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="입력 받은 10진수를 2진수~36진수로 기수 변환하여 출력하기" />
+    <MESSAGE value="1000 이하의 소수를 나열하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="1000 이하의 소수를 나열하기" />
   </component>
 </project>
