@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1000 이하의 소수를 나열하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/ArraySumForIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/CloneArray.java" afterDir="false" />
+    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1. 배열 복사하기 &#10;2. 향상된 for문">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PhysicalExamination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PhysicalExaminationEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/Practice07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/Practice08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/YMD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,22 +62,9 @@
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraySumForIn">
+  <component name="RunManager" selected="Application.Practice07">
     <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.ArraySumForIn" />
-      <module name="algorithm_java2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardConv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.CardConv2" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +89,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.Practice06" />
+    <configuration name="PhysicalExamination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.PhysicalExamination" />
+      <module name="algorithm_java2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.Practice07" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice07" />
+        <item itemvalue="Application.PhysicalExamination" />
         <item itemvalue="Application.ArraySumForIn" />
         <item itemvalue="Application.CloneArray" />
         <item itemvalue="Application.PrimeNumber2" />
-        <item itemvalue="Application.Practice06" />
-        <item itemvalue="Application.CardConv2" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665658659337</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1. 배열 복사하기 &#10;2. 향상된 for문">
+      <created>1665659197569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665659197569</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +290,7 @@
     <MESSAGE value="2. 배열 - 배열요소 복사, 역순으로 만들기" />
     <MESSAGE value="입력 받은 10진수를 2진수~36진수로 기수 변환하여 출력하기" />
     <MESSAGE value="1000 이하의 소수를 나열하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="1000 이하의 소수를 나열하기" />
+    <MESSAGE value="1. 배열 복사하기 &#10;2. 향상된 for문" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 배열 복사하기 &#10;2. 향상된 for문" />
   </component>
 </project>
