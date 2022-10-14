@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1. 배열 복사하기 &#10;2. 향상된 for문">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PhysicalExamination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/PhysicalExaminationEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/Practice07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/Practice08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap02/YMD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665659197569</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기">
+      <created>1665661610749</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665661610749</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +291,7 @@
     <MESSAGE value="입력 받은 10진수를 2진수~36진수로 기수 변환하여 출력하기" />
     <MESSAGE value="1000 이하의 소수를 나열하기" />
     <MESSAGE value="1. 배열 복사하기 &#10;2. 향상된 for문" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 배열 복사하기 &#10;2. 향상된 for문" />
+    <MESSAGE value="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기" />
   </component>
 </project>
