@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PhysicalExamination {
 
     static final int VMAX = 21; //시력분포(0.0~0.1 단위로 21개)
+
     static class PhyscData {
         String name; //이름
         int height; //키

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기" />
+    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap02/PhysicalExamination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap02/PhysicalExamination.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665661610749</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기">
+      <created>1665758215912</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665758215912</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
