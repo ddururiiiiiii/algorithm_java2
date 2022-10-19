@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665758215912</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기">
+      <created>1665897320148</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665897320148</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
