@@ -2,15 +2,19 @@ package chap03;
 
 import java.util.Scanner;
 
-public class SeqSerarchFor {
+public class SeqSearch {
 
     static int seqSearchSen(int[] a, int n, int key) {
 
-        for (int i = 0; i < n; i++)
-            if(a[i] ==key)
-                return i;  //검색 성공.
-        return  -1; // 검색 실패 -1을 반환.
+        int i = 0;
 
+        while(true) {
+            if(i == n)
+                return  -1; // 검색 실패 -1을 반환.
+            if (a[i] == key) //검색 성공.
+                return  i; // 검색 실패 -1을 반환.
+            i++;
+        }
     }
 
     public static void main(String[] args) {
