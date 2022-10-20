@@ -2,7 +2,7 @@ package chap03;
 
 import java.util.Scanner;
 
-public class SeqSerarchSen {
+public class SeqSearchSen {
 
     static int seqSearchSen(int[] a, int n, int key) {
 

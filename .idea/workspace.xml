@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap03/SeqSerarch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap03/SeqSerarchFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap03/SeqSerarchSen.java" afterDir="false" />
+    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="검색 알고리즘 - 선형검색">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap03/SeqSerarchSen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap03/SeqSearchSen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeqSerarchSen">
+  <component name="RunManager" selected="Application.SeqSearchSen">
     <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.ArraySumForIn" />
       <module name="algorithm_java2.main" />
@@ -114,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeqSerarchSen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03.SeqSerarchSen" />
+    <configuration name="SeqSearchSen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.SeqSearchSen" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeqSerarchSen" />
+        <item itemvalue="Application.SeqSearchSen" />
         <item itemvalue="Application.Practice07" />
         <item itemvalue="Application.PhysicalExamination" />
         <item itemvalue="Application.ArraySumForIn" />
@@ -265,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666149992988</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="검색 알고리즘 - 선형검색">
+      <created>1666262235662</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666262235662</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,6 +324,7 @@
     <MESSAGE value="1000 이하의 소수를 나열하기" />
     <MESSAGE value="1. 배열 복사하기 &#10;2. 향상된 for문" />
     <MESSAGE value="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 클래스 이용하기&#10;2. n일 전/일의 날짜를 반환하기" />
+    <MESSAGE value="검색 알고리즘 - 선형검색" />
+    <option name="LAST_COMMIT_MESSAGE" value="검색 알고리즘 - 선형검색" />
   </component>
 </project>
