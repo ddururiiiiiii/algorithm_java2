@@ -6,6 +6,7 @@ public class SeqSearchSen {
 
     static int seqSearchSen(int[] a, int n, int key) {
 
+
         int i = 0;
 
         a[n] = key; //보초를 추가
