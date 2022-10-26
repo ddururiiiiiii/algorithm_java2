@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="검색 알고리즘 - 선형검색" />
+    <list default="true" id="28bc2bce-503a-4dc4-a488-e966adb964e1" name="Changes" comment="검색 알고리즘 - 선형검색">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap03/BinSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeqSearchSen">
+  <component name="RunManager" selected="Application.BinSearch">
     <configuration name="ArraySumForIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.ArraySumForIn" />
       <module name="algorithm_java2.main" />
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.CloneArray" />
+    <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.BinSearch" />
       <module name="algorithm_java2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap02.*" />
+          <option name="PATTERN" value="chap03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinSearch" />
         <item itemvalue="Application.SeqSearchSen" />
         <item itemvalue="Application.Practice07" />
         <item itemvalue="Application.PhysicalExamination" />
         <item itemvalue="Application.ArraySumForIn" />
-        <item itemvalue="Application.CloneArray" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666527429527</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="검색 알고리즘 - 선형검색">
+      <created>1666784127028</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666784127028</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
