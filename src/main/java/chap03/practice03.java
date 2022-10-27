@@ -1,31 +1,42 @@
-package chap03;// 연습3-1
-// 선형검색(보초법 : for문을 사용하여 구현)
+package chap03;// 연습3-3
+// 특정 값을 갖는 배열 안의 모든 요소를 다른 배열에 copy 
 
 import java.util.Scanner;
 
 class practice03 {
 
-	static int seqSearchSen(int[] a, int n, int key) {
+	//--- 배열 a의 앞쪽 n개의 요소에서 key와 일치하는 모든 요소의 인덱스를  ---//
+	//--- 배열 idx의 앞쪽부터 순서대로 저장하고 일치하는 요솟수를 반환합니다 ---//
+	static int searchIdx(int[] a, int n, int key, int[] idx) {
+		int count = 0;								// key와 일치하는 요솟수
+		for (int i = 0; i < n; i++)
+			if (a[i] == key)
+				idx[count++] = i; 
+		return count;
 	}
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		Scanner stdIn = new Scanner(System.in);
 
-		//요솟수 받음
 		System.out.print("요솟수 : ");
-		int yosoNum = scan.nextInt();
+		int num = stdIn.nextInt();
+		int[] x = new int[num];					// 요솟수가 num 인 배열 
+		int[] y = new int[num];					// 요솟수가 num 인 배열 
 
-		//요솟수 크기의 배열을 만듦.
-		int[] arr = new int[yosoNum];
-
-		//배열에 하나씩 입력함.
-		for(int i  = 0; i < arr.length; i++){
-			System.out.println("arr[" + i + "] : ");
-			arr[i] = scan.nextInt();
+		for (int i = 0; i < num; i++) {
+			System.out.print("x[" + i + "] : ");
+			x[i] = stdIn.nextInt();
 		}
+		System.out.print("검색 값 : "); 					// 키값을 입력받음
+		int ky = stdIn.nextInt();
 
-		System.out.print("key : ");
-		int key = scan.nextInt();
+		int count = searchIdx(x, num, ky, y);		// 배열 x안의 값이 ky인 요소를 y에 copy 
 
+		if (count == 0)
+			System.out.println("그 값의 요소는 존재하지 않습니다.");
+		else
+			for (int i = 0; i < count; i++)
+				System.out.println("그 값은 " + "x[" + y[i] + "]에 있습니다.");
 	}
 }
+

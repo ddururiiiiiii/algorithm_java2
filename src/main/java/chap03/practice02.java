@@ -3,7 +3,7 @@ package chap03;// 연습3-2
 
 import java.util.Scanner;
 
-class SeqSearchEx {
+class practice02 {
 
 	//--- 배열 a의 앞쪽 n개의 요소에서 key와 일치하는 요소를 선형검색(보초법)---//
 	static int seqSearchEx(int[] a, int n, int key) {

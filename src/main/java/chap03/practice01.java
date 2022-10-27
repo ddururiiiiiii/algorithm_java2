@@ -3,7 +3,7 @@ package chap03;// 연습3-1
 
 import java.util.Scanner;
 
-class SeqSearchSenFor {
+class practice01 {
 
 	//--- 배열 a의 앞쪽 n개의 요소에서 key와 일치하는 요소를 선형검색(보초법)---//
 	static int seqSearchSen(int[] a, int n, int key) {
@@ -21,7 +21,7 @@ class SeqSearchSenFor {
 
 		System.out.print("요솟수 : ");
 		int num = stdIn.nextInt();
-		int[] x = new int[num + 1];						// 요솟수가 num + 1인 배열 
+		int[] x = new int[num + 1];						// 요솟수가 num + 1인 배열
 
 		for (int i = 0; i < num; i++) {
 			System.out.print("x[" + i + "] : ");
