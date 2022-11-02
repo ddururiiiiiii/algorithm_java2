@@ -7,6 +7,7 @@ class BinarySearchTester {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
+
         System.out.print("요솟수: ");
         int num = stdIn.nextInt();
         int[] x = new int[num]; // 요솟수가 num인 배열
